@@ -1,0 +1,22 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  background: #ddd;
+  padding: 8px;
+  height: 16px;
+  border-radius: 16px;
+  user-select: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+  margin: 0 8px;
+  font-size: 12px;
+  color: #000;
+}
+
+.disabled {
+  opacity: 0.2;
+  cursor: default;
+}

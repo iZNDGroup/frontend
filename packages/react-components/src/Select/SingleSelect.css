@@ -1,0 +1,12 @@
+.search {
+  border: 0;
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  background: transparent;
+  outline: none;
+}
+
+.value {
+  padding: 8px;
+}

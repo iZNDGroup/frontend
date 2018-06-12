@@ -1,0 +1,24 @@
+:root {
+  --shadow2: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25))
+    drop-shadow(0 3px 6px rgba(0, 0, 0, 0.23));
+  --shadow3: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.19))
+    drop-shadow(0 6px 6px rgba(0, 0, 0, 0.23));
+  --shadow4: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.16))
+    drop-shadow(0 10px 10px rgba(0, 0, 0, 0.22));
+}
+
+.container {
+  display: flex;
+}
+
+.shadow3 {
+  filter: var(--shadow3);
+}
+
+.shadow3:hover {
+  filter: var(--shadow4);
+}
+
+.shadow3:active {
+  filter: var(--shadow2);
+}

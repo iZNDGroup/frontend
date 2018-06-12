@@ -1,0 +1,11 @@
+{
+  "name": "@gpsgate/browserslist-config",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/gpsgate/frontend",
+  "main": "index.js",
+  "dependencies": {
+    "browserslist": "^3.2.8"
+  }
+}

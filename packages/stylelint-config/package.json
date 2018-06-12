@@ -1,0 +1,13 @@
+{
+  "name": "@gpsgate/stylelint-config",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/gpsgate/frontend",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint": "^9.2.0",
+    "stylelint-config-prettier": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}

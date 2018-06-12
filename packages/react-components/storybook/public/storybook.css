@@ -1,0 +1,31 @@
+.example {
+  all: initial;
+}
+
+.example .example-box {
+  border: 1px dashed #eaecef;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.example-single-item {
+  margin: 8px;
+  flex: 1;
+}
+
+.example-multiple-item {
+  margin: 8px
+}
+
+.example * {
+  box-sizing: initial; /* Fix issues caused by "markdown-body *" */
+}
+
+.property-description p {
+  margin-bottom: 8px;
+}
+
+.property-description p:last-child {
+  margin-bottom: 0;
+}

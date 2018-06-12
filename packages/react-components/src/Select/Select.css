@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  position: relative;
+  user-select: none;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  min-height: 30px; /* 2 x Border 1px = 32px in total */
+}
+
+.disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.iconContainer {
+  display: flex;
+  padding: 0 8px;
+}

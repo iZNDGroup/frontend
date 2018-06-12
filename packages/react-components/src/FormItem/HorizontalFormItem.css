@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+}
+
+.label {
+  margin-right: 16px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.value {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-top: 4px;
+  margin-left: 116px;
+}

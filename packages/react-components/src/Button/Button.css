@@ -1,0 +1,76 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  height: 32px;
+  max-width: 200px;
+  border-radius: 4px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.container:hover:not(.disabled) {
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.container:active:not(.disabled) {
+  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.disabled {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  cursor: default;
+}
+
+.primary {
+  background: #1a9dc6;
+}
+
+.secondary {
+  background: #868e96;
+}
+
+.success {
+  background: #4ec28a;
+}
+
+.danger {
+  background: #e18a8a;
+}
+
+.title {
+  color: #fff;
+  font-size: 12px;
+  padding: 0 8px;
+}
+
+.icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.leftIcon {
+  padding-left: 8px;
+}
+
+.leftIconBordered {
+  border-right: 2px solid #fff;
+  padding-right: 8px;
+}
+
+.rightIcon {
+  padding-right: 8px;
+}
+
+.rightIconBordered {
+  border-left: 2px solid #fff;
+  padding-left: 8px;
+}

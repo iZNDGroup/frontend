@@ -1,0 +1,21 @@
+.container {
+  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.container:not(.disabled) {
+  cursor: pointer;
+}
+
+.container:hover:not(.disabled) {
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 2px #1a9dc6;
+}
+
+.checked {
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 2px #1a9dc6;
+  background-color: rgba(26, 157, 198, 0.2);
+}

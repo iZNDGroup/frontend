@@ -1,0 +1,51 @@
+{
+  "name": "@gpsgate/dev-utils",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/gpsgate/frontend",
+  "main": "index.js",
+  "bin": {
+    "eslint": "./node_modules/.bin/eslint.cmd",
+    "gpsgate-build": "./build.js",
+    "gpsgate-start": "./start.js",
+    "jest": "./node_modules/.bin/jest.cmd",
+    "prettier": "./node_modules/.bin/prettier.cmd",
+    "stylelint": "./node_modules/.bin/stylelint.cmd"
+  },
+  "dependencies": {
+    "@gpsgate/babel-preset": "^1.0.0",
+    "@gpsgate/browserslist-config": "^1.0.0",
+    "@gpsgate/eslint-config": "^1.0.0",
+    "@gpsgate/jest-config": "^1.0.0",
+    "@gpsgate/stylelint-config": "^1.0.0",
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "ip": "^1.1.5",
+    "jest": "^22.4.3",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "minimist": "^1.2.0",
+    "postcss-flexbugs-fixes": "^3.3.0",
+    "postcss-loader": "^2.1.4",
+    "postcss-preset-env": "^4.0.0",
+    "prettier": "^1.12.1",
+    "style-loader": "^0.19.0",
+    "stylelint": "^9.2.0",
+    "stylelint-webpack-plugin": "^0.10.4",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0",
+    "webpack-bundle-analyzer": "^2.13.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "resolutions": {
+    "browserslist": "3.2.8"
+  }
+}

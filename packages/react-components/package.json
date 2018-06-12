@@ -1,0 +1,37 @@
+{
+  "name": "@gpsgate/react-components",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/gpsgate/frontend",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "gpsgate-build",
+    "storybook:start": "start-storybook -c storybook/config -s storybook/public -p 9001",
+    "storybook:build": "build-storybook -c storybook/config -s storybook/public -o storybook_dist",
+    "eslint": "eslint src",
+    "stylelint": "stylelint src/**/*.css",
+    "prettier": "prettier --write \"src/**/*.{js,css}\""
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "formik": "^0.11.11",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-autosize-textarea": "^3.0.3",
+    "react-dom": "^16.1.1",
+    "react-measure": "^1.4.7",
+    "yup": "^0.24.1"
+  },
+  "devDependencies": {
+    "@gpsgate/dev-utils": "^1.0.0",
+    "@storybook/addons": "^3.4.1",
+    "@storybook/addon-options": "^3.4.1",
+    "@storybook/react": "^3.4.1",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "fs-extra": "^6.0.1",
+    "react-markdown": "^3.3.0"
+  }
+}
