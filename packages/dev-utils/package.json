@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "repository": "https://github.com/gpsgate/frontend",
-  "main": "index.js",
   "bin": {
     "eslint": "./node_modules/.bin/eslint.cmd",
     "gpsgate-build": "./build.js",

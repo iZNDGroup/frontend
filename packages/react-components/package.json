@@ -4,11 +4,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "repository": "https://github.com/gpsgate/frontend",
+  "files": ["src", "dist"],
   "main": "src/index.js",
   "scripts": {
+    "prepublish": "yarn build",
     "build": "gpsgate-build",
     "storybook:start": "start-storybook -c storybook/config -s storybook/public -p 9001",
-    "storybook:build": "build-storybook -c storybook/config -s storybook/public -o storybook_dist",
+    "storybook:build": "build-storybook -c storybook/config -s storybook/public -o storybook/dist",
     "eslint": "eslint src",
     "stylelint": "stylelint src/**/*.css",
     "prettier": "prettier --write \"src/**/*.{js,css}\""
