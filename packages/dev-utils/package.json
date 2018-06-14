@@ -1,7 +1,7 @@
 {
   "name": "@gpsgate/dev-utils",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "https://github.com/gpsgate/frontend",
   "bin": {
@@ -12,12 +12,15 @@
     "prettier": "./node_modules/.bin/prettier.cmd",
     "stylelint": "./node_modules/.bin/stylelint.cmd"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@gpsgate/babel-preset": "^1.0.0",
-    "@gpsgate/browserslist-config": "^1.0.0",
-    "@gpsgate/eslint-config": "^1.0.0",
-    "@gpsgate/jest-config": "^1.0.0",
-    "@gpsgate/stylelint-config": "^1.0.0",
+    "@gpsgate/babel-preset": "^1.0.1",
+    "@gpsgate/browserslist-config": "^1.0.1",
+    "@gpsgate/eslint-config": "^1.0.1",
+    "@gpsgate/jest-config": "^1.0.1",
+    "@gpsgate/stylelint-config": "^1.0.1",
     "autoprefixer": "^8.3.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

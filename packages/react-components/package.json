@@ -1,10 +1,13 @@
 {
   "name": "@gpsgate/react-components",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "https://github.com/gpsgate/frontend",
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "main": "src/index.js",
   "scripts": {
     "prepublish": "yarn build",
@@ -14,6 +17,9 @@
     "eslint": "eslint src",
     "stylelint": "stylelint src/**/*.css",
     "prettier": "prettier --write \"src/**/*.{js,css}\""
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "classnames": "^2.2.5",
@@ -26,9 +32,9 @@
     "yup": "^0.24.1"
   },
   "devDependencies": {
-    "@gpsgate/dev-utils": "^1.0.0",
-    "@storybook/addons": "^3.4.1",
+    "@gpsgate/dev-utils": "^1.0.1",
     "@storybook/addon-options": "^3.4.1",
+    "@storybook/addons": "^3.4.1",
     "@storybook/react": "^3.4.1",
     "babel-core": "^6.26.0",
     "babel-polyfill": "^6.26.0",

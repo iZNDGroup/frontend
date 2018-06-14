@@ -1,12 +1,15 @@
 {
   "name": "@gpsgate/jest-config",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "https://github.com/gpsgate/frontend",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@gpsgate/babel-preset": "^1.0.0",
+    "@gpsgate/babel-preset": "^1.0.1",
     "babel-core": "^6.26.0",
     "babel-jest": "^21.2.0",
     "babel-polyfill": "^6.26.0",
